@@ -11,6 +11,34 @@ Express是一个简洁而灵活的 node.js Web应用框架, 提供了一系列�
 - Mongodb
 - bootstrap
 
+#开启项目方法：
+安装git和nodejs。
+
+下载源代码：
+
+```
+$ git clone https://github.com/RegToss/Express-Blog.git
+```
+
+进入代码目录，安装express-generator：
+
+```
+$ npm install -g express-generator
+```
+下载monodb数据库，在monodb根目录下新建文件夹blog用作数据库，
+命令行模式下进入mongodb的根目录下的bin目录,设置数据库路径，并开启数据库：
+```
+$ cd bin
+$ mongod --dbpath ../blog
+```
+
+接下来就可以运行代码了，进入源代码根目录，运行：
+```
+$ npm start
+```
+
+打开浏览器输入：localhost:3000查看效果。
+
 下面是效果图：
 
 ##主页
