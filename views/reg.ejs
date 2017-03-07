@@ -1,0 +1,29 @@
+<%- include header %>
+<form method="post" class='form-horizontal'>
+	<div class='form-group'>
+		<label class='col-sm-3 control-label'>用户名：</label>
+		<div class="col-sm-5">
+			<input type="text" name="name" class='form-control'/>
+		</div>	
+	</div>
+	<div class='form-group'>
+		<label class='col-sm-3 control-label'>密码：</label>
+		<div class="col-sm-5">
+			<input type="password" name="password" class='form-control'/>
+		</div>	
+	</div>
+	<div class='form-group'>
+		<label class='col-sm-3 control-label'>确认密码：</label>
+		<div class="col-sm-5">
+			<input type="password" name="password-repeat" class='form-control'/>
+		</div>	
+	</div>
+	<div class='form-group'>
+		<label class='col-sm-3 control-label'>邮箱：</label>
+		<div class="col-sm-5">
+			<input type="email" name="email" class='form-control'/>
+		</div>	
+	</div>
+	<button class='btn btn-primary col-sm-1'>注册</button>
+</form>
+<%- include footer %>
